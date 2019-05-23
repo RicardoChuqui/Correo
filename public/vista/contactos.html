@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>Gestión de usuarios</title>
+ <linK rel="stylesheet" type="text/css" href="../../admin/vista/usuario/estilos/estilo.css">
+</head>
+<body>
+       
+        <div id="registro">
+ <form method="POST" action="../controladores/crear_contactos.php" enctype="multipart/form-data">
+  <label for="nombres">Nombres (*)</label><br>
+  <input type="text" id="nombres" name="nombres" value="" placeholder="Ingrese sus dos nombres..." required/>
+   <br>
+   <label for="correo">Correo electrónico (*)</label><br>
+   <input type="email" id="correo" name="correo" value="" placeholder="Ingrese su correo electrónico..." required/>
+   <br>
+        <br>
+        <br>
+        <input type="submit" id="crear" name="submit" value="Aceptar" />
+        <input type="reset" id="cancelar" name="cancelar" value="Cancelar" />
+    
+  </form>
+  </div>
+ </body>
+ </html>
